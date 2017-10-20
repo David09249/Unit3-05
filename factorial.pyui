@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{204, 151}, {143, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_factorial_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Calculate Factorial",
+          "uuid" : "52570583-7D75-4A72-B8E8-7F6256E6505E",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{29, 191}, {483, 343}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "F9C274C4-E4B5-4D71-B88D-83AA5C96E58F",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "answer_label",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{274, 79}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "185A9261-A9E4-4A57-BD5C-15B30149A035",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "user_input_textbox",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{58, 60}, {194, 59}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "factorial_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "98932010-6DD2-41E1-8154-C144D82B89AE",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter a Number to Calculate its Factorial",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
